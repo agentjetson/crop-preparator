@@ -1,0 +1,115 @@
+cmake_minimum_required(VERSION 3.20)
+project(crop_preparator VERSION 0.1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+find_package(Threads REQUIRED)
+find_package(OpenCV REQUIRED COMPONENTS core imgproc imgcodecs)
+find_package(PkgConfig REQUIRED)
+
+include(FetchContent)
+find_package(spdlog QUIET)
+if(NOT spdlog_FOUND)
+  FetchContent_Declare(spdlog GIT_REPOSITORY https://github.com/gabime/spdlog.git GIT_TAG v1.14.1 GIT_SHALLOW TRUE)
+  set(SPDLOG_BUILD_EXAMPLE OFF CACHE BOOL "" FORCE)
+  set(SPDLOG_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+  FetchContent_MakeAvailable(spdlog)
+endif()
+
+# Minimal proto support for future NATS/gRPC wiring
+set(_use_grpc_config FALSE)
+if(NOT APPLE)
+  find_package(gRPC CONFIG QUIET)
+  if(gRPC_FOUND)
+    set(_use_grpc_config TRUE)
+  endif()
+endif()
+if(_use_grpc_config)
+  set(_GRPC_GRPCPP gRPC::grpc++)
+  if(TARGET gRPC::grpc_cpp_plugin)
+    set(_GRPC_CPP_PLUGIN $<TARGET_FILE:gRPC::grpc_cpp_plugin>)
+  else()
+    find_program(_GRPC_CPP_PLUGIN grpc_cpp_plugin REQUIRED)
+  endif()
+  if(NOT TARGET protobuf::libprotobuf)
+    find_package(Protobuf REQUIRED)
+  endif()
+else()
+  pkg_check_modules(PROTOBUF REQUIRED IMPORTED_TARGET protobuf)
+  pkg_check_modules(GRPC REQUIRED IMPORTED_TARGET grpc++)
+  if(NOT TARGET protobuf::libprotobuf)
+    add_library(protobuf::libprotobuf ALIAS PkgConfig::PROTOBUF)
+  endif()
+  if(PROTOBUF_INCLUDE_DIRS)
+    set(Protobuf_INCLUDE_DIRS ${PROTOBUF_INCLUDE_DIRS})
+  endif()
+  set(_GRPC_GRPCPP PkgConfig::GRPC)
+  find_program(_GRPC_CPP_PLUGIN grpc_cpp_plugin REQUIRED)
+  find_program(_PROTOBUF_PROTOC protoc REQUIRED)
+endif()
+if(NOT DEFINED _PROTOBUF_PROTOC)
+  if(TARGET protobuf::protoc)
+    set(_PROTOBUF_PROTOC $<TARGET_FILE:protobuf::protoc>)
+  else()
+    find_program(_PROTOBUF_PROTOC protoc REQUIRED)
+  endif()
+endif()
+
+find_package(NATS QUIET)
+if(NOT NATS_FOUND)
+  FetchContent_Declare(nats GIT_REPOSITORY https://github.com/nats-io/nats.c.git GIT_TAG v3.9.1 GIT_SHALLOW TRUE)
+  set(NATS_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+  set(NATS_BUILD_STREAMING OFF CACHE BOOL "" FORCE)
+  set(NATS_BUILD_LIB_SHARED OFF CACHE BOOL "" FORCE)
+  set(NATS_BUILD_LIB_STATIC ON CACHE BOOL "" FORCE)
+  set(NATS_BUILD_TESTING OFF CACHE BOOL "" FORCE)
+  FetchContent_MakeAvailable(nats)
+  set(NATS_LIBRARIES nats_static)
+  set(NATS_INCLUDE_DIRS ${nats_SOURCE_DIR}/src)
+endif()
+
+set(PROTO_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/proto)
+set(PROTO_GEN_DIR ${CMAKE_CURRENT_BINARY_DIR}/generated)
+file(MAKE_DIRECTORY ${PROTO_GEN_DIR})
+set(PROTO_FILES
+  ${PROTO_ROOT}/common/v1/error.proto
+  ${PROTO_ROOT}/detection/v1/detection.proto
+  ${PROTO_ROOT}/detection/v1/annotated_video.proto
+  ${PROTO_ROOT}/ingest/v1/ingest_service.proto
+)
+set(PROTO_SRCS)
+set(GRPC_SRCS)
+foreach(proto ${PROTO_FILES})
+  get_filename_component(proto_name ${proto} NAME_WE)
+  get_filename_component(proto_dir ${proto} DIRECTORY)
+  file(RELATIVE_PATH rel_dir ${PROTO_ROOT} ${proto_dir})
+  set(pb_cc ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.pb.cc)
+  set(grpc_cc ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.grpc.pb.cc)
+  add_custom_command(OUTPUT ${pb_cc} ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.pb.h
+                             ${grpc_cc} ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.grpc.pb.h
+    COMMAND ${_PROTOBUF_PROTOC} --proto_path=${PROTO_ROOT} --proto_path=${Protobuf_INCLUDE_DIRS}
+      --cpp_out=${PROTO_GEN_DIR} --grpc_out=${PROTO_GEN_DIR}
+      --plugin=protoc-gen-grpc=${_GRPC_CPP_PLUGIN} ${proto}
+    DEPENDS ${proto})
+  list(APPEND PROTO_SRCS ${pb_cc})
+  list(APPEND GRPC_SRCS ${grpc_cc})
+endforeach()
+
+add_library(edge_proto ${PROTO_SRCS} ${GRPC_SRCS})
+target_include_directories(edge_proto PUBLIC ${PROTO_GEN_DIR} ${Protobuf_INCLUDE_DIRS})
+target_link_libraries(edge_proto PUBLIC protobuf::libprotobuf ${_GRPC_GRPCPP})
+
+add_library(edge_common STATIC src/common/otel.cpp)
+target_include_directories(edge_common PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src ${NATS_INCLUDE_DIRS})
+target_link_libraries(edge_common PUBLIC edge_proto spdlog::spdlog ${NATS_LIBRARIES} Threads::Threads)
+
+add_library(crop_lib src/crop_preparator.cpp)
+target_include_directories(crop_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(crop_lib PUBLIC ${OpenCV_LIBS})
+
+add_executable(crop_preparator src/main.cpp)
+target_link_libraries(crop_preparator PRIVATE crop_lib edge_common edge_proto)
+
+message(STATUS "crop-preparator configured")
