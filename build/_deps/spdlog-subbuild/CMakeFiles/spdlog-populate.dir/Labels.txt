@@ -1,0 +1,14 @@
+# Target labels
+ spdlog-populate
+# Source files and their labels
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.rule
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete.rule
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build.rule
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure.rule
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download.rule
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install.rule
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir.rule
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch.rule
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test.rule
+/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update.rule

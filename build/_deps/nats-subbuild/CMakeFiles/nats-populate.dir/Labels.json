@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/CMakeFiles/nats-populate"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/CMakeFiles/nats-populate.rule"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/CMakeFiles/nats-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/nats-populate-prefix/src/nats-populate-stamp/nats-populate-build.rule"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/nats-populate-prefix/src/nats-populate-stamp/nats-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/nats-populate-prefix/src/nats-populate-stamp/nats-populate-download.rule"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/nats-populate-prefix/src/nats-populate-stamp/nats-populate-install.rule"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/nats-populate-prefix/src/nats-populate-stamp/nats-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/nats-populate-prefix/src/nats-populate-stamp/nats-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/nats-populate-prefix/src/nats-populate-stamp/nats-populate-test.rule"
+		},
+		{
+			"file" : "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-subbuild/nats-populate-prefix/src/nats-populate-stamp/nats-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nats-populate"
+		],
+		"name" : "nats-populate"
+	}
+}

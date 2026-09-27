@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/edge_proto.dir/generated/common/v1/error.grpc.pb.cc.o"
+  "CMakeFiles/edge_proto.dir/generated/common/v1/error.grpc.pb.cc.o.d"
+  "CMakeFiles/edge_proto.dir/generated/common/v1/error.pb.cc.o"
+  "CMakeFiles/edge_proto.dir/generated/common/v1/error.pb.cc.o.d"
+  "CMakeFiles/edge_proto.dir/generated/detection/v1/annotated_video.grpc.pb.cc.o"
+  "CMakeFiles/edge_proto.dir/generated/detection/v1/annotated_video.grpc.pb.cc.o.d"
+  "CMakeFiles/edge_proto.dir/generated/detection/v1/annotated_video.pb.cc.o"
+  "CMakeFiles/edge_proto.dir/generated/detection/v1/annotated_video.pb.cc.o.d"
+  "CMakeFiles/edge_proto.dir/generated/detection/v1/detection.grpc.pb.cc.o"
+  "CMakeFiles/edge_proto.dir/generated/detection/v1/detection.grpc.pb.cc.o.d"
+  "CMakeFiles/edge_proto.dir/generated/detection/v1/detection.pb.cc.o"
+  "CMakeFiles/edge_proto.dir/generated/detection/v1/detection.pb.cc.o.d"
+  "CMakeFiles/edge_proto.dir/generated/ingest/v1/ingest_service.grpc.pb.cc.o"
+  "CMakeFiles/edge_proto.dir/generated/ingest/v1/ingest_service.grpc.pb.cc.o.d"
+  "CMakeFiles/edge_proto.dir/generated/ingest/v1/ingest_service.pb.cc.o"
+  "CMakeFiles/edge_proto.dir/generated/ingest/v1/ingest_service.pb.cc.o.d"
+  "generated/common/v1/error.grpc.pb.cc"
+  "generated/common/v1/error.grpc.pb.h"
+  "generated/common/v1/error.pb.cc"
+  "generated/common/v1/error.pb.h"
+  "generated/detection/v1/annotated_video.grpc.pb.cc"
+  "generated/detection/v1/annotated_video.grpc.pb.h"
+  "generated/detection/v1/annotated_video.pb.cc"
+  "generated/detection/v1/annotated_video.pb.h"
+  "generated/detection/v1/detection.grpc.pb.cc"
+  "generated/detection/v1/detection.grpc.pb.h"
+  "generated/detection/v1/detection.pb.cc"
+  "generated/detection/v1/detection.pb.h"
+  "generated/ingest/v1/ingest_service.grpc.pb.cc"
+  "generated/ingest/v1/ingest_service.grpc.pb.h"
+  "generated/ingest/v1/ingest_service.pb.cc"
+  "generated/ingest/v1/ingest_service.pb.h"
+  "libedge_proto.a"
+  "libedge_proto.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/edge_proto.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

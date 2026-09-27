@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/macbas/work/AJ/crop-preparator/build/cmake_install.cmake",
+		"/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-build/cmake_install.cmake",
+		"/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/cmake_install.cmake",
+		"/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src/cmake_install.cmake",
+		"/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/examples/cmake_install.cmake",
+		"/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/examples/getstarted/cmake_install.cmake",
+		"/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/test/cmake_install.cmake",
+		"/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/test/dylib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

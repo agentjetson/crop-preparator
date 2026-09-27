@@ -1,0 +1,374 @@
+[
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++  -I/Users/macbas/work/AJ/crop-preparator/build/generated -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/edge_proto.dir/generated/common/v1/error.pb.cc.o -c /Users/macbas/work/AJ/crop-preparator/build/generated/common/v1/error.pb.cc",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/generated/common/v1/error.pb.cc",
+  "output": "CMakeFiles/edge_proto.dir/generated/common/v1/error.pb.cc.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++  -I/Users/macbas/work/AJ/crop-preparator/build/generated -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/edge_proto.dir/generated/detection/v1/detection.pb.cc.o -c /Users/macbas/work/AJ/crop-preparator/build/generated/detection/v1/detection.pb.cc",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/generated/detection/v1/detection.pb.cc",
+  "output": "CMakeFiles/edge_proto.dir/generated/detection/v1/detection.pb.cc.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++  -I/Users/macbas/work/AJ/crop-preparator/build/generated -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/edge_proto.dir/generated/detection/v1/annotated_video.pb.cc.o -c /Users/macbas/work/AJ/crop-preparator/build/generated/detection/v1/annotated_video.pb.cc",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/generated/detection/v1/annotated_video.pb.cc",
+  "output": "CMakeFiles/edge_proto.dir/generated/detection/v1/annotated_video.pb.cc.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++  -I/Users/macbas/work/AJ/crop-preparator/build/generated -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/edge_proto.dir/generated/ingest/v1/ingest_service.pb.cc.o -c /Users/macbas/work/AJ/crop-preparator/build/generated/ingest/v1/ingest_service.pb.cc",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/generated/ingest/v1/ingest_service.pb.cc",
+  "output": "CMakeFiles/edge_proto.dir/generated/ingest/v1/ingest_service.pb.cc.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++  -I/Users/macbas/work/AJ/crop-preparator/build/generated -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/edge_proto.dir/generated/common/v1/error.grpc.pb.cc.o -c /Users/macbas/work/AJ/crop-preparator/build/generated/common/v1/error.grpc.pb.cc",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/generated/common/v1/error.grpc.pb.cc",
+  "output": "CMakeFiles/edge_proto.dir/generated/common/v1/error.grpc.pb.cc.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++  -I/Users/macbas/work/AJ/crop-preparator/build/generated -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/edge_proto.dir/generated/detection/v1/detection.grpc.pb.cc.o -c /Users/macbas/work/AJ/crop-preparator/build/generated/detection/v1/detection.grpc.pb.cc",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/generated/detection/v1/detection.grpc.pb.cc",
+  "output": "CMakeFiles/edge_proto.dir/generated/detection/v1/detection.grpc.pb.cc.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++  -I/Users/macbas/work/AJ/crop-preparator/build/generated -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/edge_proto.dir/generated/detection/v1/annotated_video.grpc.pb.cc.o -c /Users/macbas/work/AJ/crop-preparator/build/generated/detection/v1/annotated_video.grpc.pb.cc",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/generated/detection/v1/annotated_video.grpc.pb.cc",
+  "output": "CMakeFiles/edge_proto.dir/generated/detection/v1/annotated_video.grpc.pb.cc.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++  -I/Users/macbas/work/AJ/crop-preparator/build/generated -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/edge_proto.dir/generated/ingest/v1/ingest_service.grpc.pb.cc.o -c /Users/macbas/work/AJ/crop-preparator/build/generated/ingest/v1/ingest_service.grpc.pb.cc",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/generated/ingest/v1/ingest_service.grpc.pb.cc",
+  "output": "CMakeFiles/edge_proto.dir/generated/ingest/v1/ingest_service.grpc.pb.cc.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/macbas/work/AJ/crop-preparator/src -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src -I/Users/macbas/work/AJ/crop-preparator/build/generated -I/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/include -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/edge_common.dir/src/common/otel.cpp.o -c /Users/macbas/work/AJ/crop-preparator/src/common/otel.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/src/common/otel.cpp",
+  "output": "CMakeFiles/edge_common.dir/src/common/otel.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++  -I/Users/macbas/work/AJ/crop-preparator/src -isystem /opt/homebrew/Cellar/opencv/5.0.0_6/include/opencv5 -O3 -DNDEBUG -std=gnu++20 -arch arm64 -o CMakeFiles/crop_lib.dir/src/crop_preparator.cpp.o -c /Users/macbas/work/AJ/crop-preparator/src/crop_preparator.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/src/crop_preparator.cpp",
+  "output": "CMakeFiles/crop_lib.dir/src/crop_preparator.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/macbas/work/AJ/crop-preparator/src -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src -I/Users/macbas/work/AJ/crop-preparator/build/generated -I/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/include -isystem /opt/homebrew/Cellar/opencv/5.0.0_6/include/opencv5 -isystem /opt/homebrew/Cellar/protobuf/36.0/include -isystem /opt/homebrew/Cellar/abseil/20260817.0/include -isystem /opt/homebrew/Cellar/grpc/1.83.1/include -isystem /opt/homebrew/Cellar/c-ares/1.34.8/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.4/include -isystem /opt/homebrew/Cellar/re2/2025-11-05_2/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -pthread -o CMakeFiles/crop_preparator.dir/src/main.cpp.o -c /Users/macbas/work/AJ/crop-preparator/src/main.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/src/main.cpp",
+  "output": "CMakeFiles/crop_preparator.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/spdlog.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/spdlog.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/async.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/async.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/cfg.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/cfg.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/asynccb.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/asynccb.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/asynccb.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/asynccb.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/buf.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/buf.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/buf.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/buf.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/comsock.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/comsock.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/comsock.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/comsock.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/conn.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/conn.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/conn.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/conn.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/crypto.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/crypto.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/crypto.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/crypto.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/dispatch.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/dispatch.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/dispatch.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/dispatch.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/hash.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/hash.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/hash.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/hash.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/js.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/js.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/js.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/js.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/jsm.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/jsm.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/jsm.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/jsm.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/kv.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/kv.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/kv.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/kv.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/micro.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/micro.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/micro_client.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_client.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_client.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/micro_client.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/micro_endpoint.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_endpoint.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_endpoint.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/micro_endpoint.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/micro_error.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_error.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_error.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/micro_error.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/micro_monitoring.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_monitoring.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_monitoring.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/micro_monitoring.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/micro_request.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_request.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/micro_request.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/micro_request.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/msg.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/msg.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/msg.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/msg.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/nats.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/nats.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/nats.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/nats.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/natstime.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/natstime.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/natstime.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/natstime.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/nkeys.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/nkeys.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/nkeys.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/nkeys.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/nuid.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/nuid.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/nuid.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/nuid.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/opts.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/opts.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/opts.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/opts.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/parser.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/parser.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/parser.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/parser.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/pub.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/pub.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/pub.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/pub.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/srvpool.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/srvpool.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/srvpool.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/srvpool.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/stats.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/stats.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/stats.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/stats.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/status.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/status.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/status.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/status.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/sub.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/sub.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/sub.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/sub.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/timer.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/timer.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/timer.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/timer.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/url.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/url.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/url.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/url.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/util.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/util.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/util.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/util.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/glib/glib.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/glib/glib.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/glib/glib_async_cb.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_async_cb.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_async_cb.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/glib/glib_async_cb.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/glib/glib_dispatch_pool.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_dispatch_pool.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_dispatch_pool.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/glib/glib_dispatch_pool.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/glib/glib_gc.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_gc.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_gc.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/glib/glib_gc.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/glib/glib_last_error.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_last_error.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_last_error.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/glib/glib_last_error.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/glib/glib_ssl.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_ssl.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_ssl.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/glib/glib_ssl.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/glib/glib_timer.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_timer.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib/glib_timer.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/glib/glib_timer.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/unix/cond.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix/cond.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix/cond.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/unix/cond.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/unix/mutex.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix/mutex.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix/mutex.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/unix/mutex.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/unix/sock.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix/sock.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix/sock.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/unix/sock.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/src",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/glib -I/opt/homebrew/Cellar/openssl@3/3.6.4/include -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/nats_static.dir/unix/thread.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix/thread.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src/unix/thread.c",
+  "output": "_deps/nats-build/src/CMakeFiles/nats_static.dir/unix/thread.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/test",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src -I/opt/homebrew/Cellar/openssl@3/3.6.4/include  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/testsuite.dir/test.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/test/test.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/test/test.c",
+  "output": "_deps/nats-build/test/CMakeFiles/testsuite.dir/test.c.o"
+},
+{
+  "directory": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-build/test",
+  "command": "/usr/bin/cc -DDARWIN -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_USE_OPENSSL_1_1 -D_REENTRANT -I/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/src -I/opt/homebrew/Cellar/openssl@3/3.6.4/include  -std=c99 -pedantic  -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -arch arm64 -o CMakeFiles/testsuite.dir/bench_sub_async.c.o -c /Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/test/bench_sub_async.c",
+  "file": "/Users/macbas/work/AJ/crop-preparator/build/_deps/nats-src/test/bench_sub_async.c",
+  "output": "_deps/nats-build/test/CMakeFiles/testsuite.dir/bench_sub_async.c.o"
+}
+]
