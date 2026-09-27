@@ -1,3 +1,0 @@
-/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
-/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/CMakeFiles/edit_cache.dir
-/Users/macbas/work/AJ/crop-preparator/build/_deps/spdlog-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcrop_lib.a CMakeFiles/crop_lib.dir/src/crop_preparator.cpp.o
-/usr/bin/ranlib libcrop_lib.a
