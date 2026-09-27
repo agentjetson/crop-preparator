@@ -73,26 +73,66 @@ endif()
 set(PROTO_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/proto)
 set(PROTO_GEN_DIR ${CMAKE_CURRENT_BINARY_DIR}/generated)
 file(MAKE_DIRECTORY ${PROTO_GEN_DIR})
+
 set(PROTO_FILES
   ${PROTO_ROOT}/common/v1/error.proto
   ${PROTO_ROOT}/detection/v1/detection.proto
   ${PROTO_ROOT}/detection/v1/annotated_video.proto
   ${PROTO_ROOT}/ingest/v1/ingest_service.proto
 )
+
+# Build a clean list of --proto_path flags for protoc only
+set(_PROTOC_IMPORT_FLAGS --proto_path=${PROTO_ROOT})
+
+# Locate the well-known types (google/protobuf/*.proto)
+set(_wkt_found FALSE)
+if(Protobuf_INCLUDE_DIRS)
+  foreach(_inc ${Protobuf_INCLUDE_DIRS})
+    if(EXISTS "${_inc}/google/protobuf/timestamp.proto")
+      list(APPEND _PROTOC_IMPORT_FLAGS --proto_path=${_inc})
+      set(_wkt_found TRUE)
+      break()
+    endif()
+  endforeach()
+endif()
+
+# Fallback locations used by Homebrew / system packages
+if(NOT _wkt_found)
+  foreach(_candidate /opt/homebrew/include /usr/local/include /usr/include)
+    if(EXISTS "${_candidate}/google/protobuf/timestamp.proto")
+      list(APPEND _PROTOC_IMPORT_FLAGS --proto_path=${_candidate})
+      set(_wkt_found TRUE)
+      break()
+    endif()
+  endforeach()
+endif()
+
+if(NOT _wkt_found)
+  message(WARNING "Could not locate google/protobuf/*.proto – generation may fail")
+endif()
+
 set(PROTO_SRCS)
 set(GRPC_SRCS)
 foreach(proto ${PROTO_FILES})
   get_filename_component(proto_name ${proto} NAME_WE)
   get_filename_component(proto_dir ${proto} DIRECTORY)
   file(RELATIVE_PATH rel_dir ${PROTO_ROOT} ${proto_dir})
-  set(pb_cc ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.pb.cc)
+  set(pb_cc   ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.pb.cc)
   set(grpc_cc ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.grpc.pb.cc)
-  add_custom_command(OUTPUT ${pb_cc} ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.pb.h
-                             ${grpc_cc} ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.grpc.pb.h
-    COMMAND ${_PROTOBUF_PROTOC} --proto_path=${PROTO_ROOT} --proto_path=${Protobuf_INCLUDE_DIRS}
-      --cpp_out=${PROTO_GEN_DIR} --grpc_out=${PROTO_GEN_DIR}
-      --plugin=protoc-gen-grpc=${_GRPC_CPP_PLUGIN} ${proto}
-    DEPENDS ${proto})
+
+  add_custom_command(
+    OUTPUT ${pb_cc} ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.pb.h
+           ${grpc_cc} ${PROTO_GEN_DIR}/${rel_dir}/${proto_name}.grpc.pb.h
+    COMMAND ${_PROTOBUF_PROTOC}
+            ${_PROTOC_IMPORT_FLAGS}
+            --cpp_out=${PROTO_GEN_DIR}
+            --grpc_out=${PROTO_GEN_DIR}
+            --plugin=protoc-gen-grpc=${_GRPC_CPP_PLUGIN}
+            ${proto}
+    DEPENDS ${proto}
+    COMMENT "Generating C++/gRPC sources for ${proto_name}"
+    VERBATIM
+  )
   list(APPEND PROTO_SRCS ${pb_cc})
   list(APPEND GRPC_SRCS ${grpc_cc})
 endforeach()
