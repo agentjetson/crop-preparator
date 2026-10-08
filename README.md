@@ -8,7 +8,7 @@ Lightweight OpenCV crop / ROI preparation stage for AgentJetson.
 This sits between the primary [`object-classifier`](https://github.com/agentjetson/object-classifier) and secondary consumers ([`alpr-consumer`](https://github.com/agentjetson/alpr-consumer), attributes, …).  
 Later the implementation can be swapped for an avplumber (or GStreamer/DeepStream) graph without changing the `ObjectEnvelope` contract.
 
-Architecture map: [`agentjetson/contract` ARCHITECTURE.md](https://github.com/agentjetson/contract/blob/main/ARCHITECTURE.md).
+Architecture map: [`agentjetson/core` ARCHITECTURE.md](https://github.com/agentjetson/core/blob/main/ARCHITECTURE.md).
 
 ---
 
@@ -33,7 +33,7 @@ specialists (alpr-consumer, …)  — still pure consumers of ObjectEnvelope
 - **No full-frame bus required**: works from `ObjectEnvelope.crop_jpeg` when present (typical object-classifier path).
 - **Specialists unchanged**: they keep consuming the stable `detection.v1.ObjectEnvelope` contract.
 
-Subjects (owned by [contract `domain/nats-subjects.yaml`](https://github.com/agentjetson/contract/blob/main/domain/nats-subjects.yaml)):
+Subjects (owned by [contract `domain/nats-subjects.yaml`](https://github.com/agentjetson/core/blob/main/domain/nats-subjects.yaml)):
 
 | Direction | Message            | Subject              |
 |-----------|--------------------|----------------------|
