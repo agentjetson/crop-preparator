@@ -78,6 +78,7 @@ set(PROTO_FILES
   ${PROTO_ROOT}/common/v1/error.proto
   ${PROTO_ROOT}/detection/v1/detection.proto
   ${PROTO_ROOT}/detection/v1/annotated_video.proto
+  ${PROTO_ROOT}/crop/v1/crop.proto
   ${PROTO_ROOT}/ingest/v1/ingest_service.proto
 )
 
